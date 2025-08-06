@@ -1,0 +1,6 @@
+CREATE TABLE ExpenseTable (
+    ExpenseId INT PRIMARY KEY IDENTITY,
+    Description NVARCHAR(200),
+    Amount DECIMAL(10,2),
+    Date DATE
+);
